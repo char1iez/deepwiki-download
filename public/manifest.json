@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "DeepWiki Downloader",
+  "version": "0.1.1",
+  "description": "Download the full DeepWiki project as local Markdown in a ZIP archive.",
+  "permissions": ["activeTab", "downloads", "storage"],
+  "host_permissions": ["https://deepwiki.com/*"],
+  "optional_host_permissions": ["https://*/*"],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "DeepWiki Downloader",
+    "default_icon": "icons/icon-128.png"
+  }
+}
