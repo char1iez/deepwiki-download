@@ -69,3 +69,7 @@ flowchart TD
 - 仅支持 DeepWiki 项目页面
 - 图片以外的外链资源可能不完整下载
 - 非核心资源下载失败不会中断导出，写入 warning
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=char1iez/deepwiki-download&type=Date)](https://star-history.com/#char1iez/deepwiki-download&Date)
